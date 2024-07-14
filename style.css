@@ -24,8 +24,10 @@ body {
 .button {
     width: 70px;
     height: 70px;
-    border: 0px solid red;
+    /* border: 0px solid red; */
+    box-sizing: border-box;
     border-radius: 50%;
+    transition: all 0.5s ease;
 
     box-shadow: 0px 0px 5px 1px gainsboro;
 
@@ -37,6 +39,12 @@ body {
     margin: 15px;
     font-size: 35px;
     background-color: grey;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid rgb(137, 137, 137);
+    background-color: #565656;
 }
 
 
